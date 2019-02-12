@@ -6,6 +6,6 @@ The project requirements can be installed using
 	pip install -r requirements.txt
 
 To launch the web API do
-  python app.py
+	python app.py
   
 
