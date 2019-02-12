@@ -1,0 +1,10 @@
+tensorflow
+Flask
+gunicorn
+keras
+imutils
+opencv-python
+h5py
+Pillow
+matplotlib
+icrawler
