@@ -1,5 +1,5 @@
 ## Such_VadaPav_Much_Wow
-A CNN classifier with flask web API, to tell if you have a Vada Pav or not. :scream: Model trained on a simple CNN and MobileNet.
+A CNN classifier with flask web API, to tell if you have a Vada Pav or not. Model trained on a simple CNN and MobileNet.
 
 ### Getting Started :
 The project requirements can be installed using
