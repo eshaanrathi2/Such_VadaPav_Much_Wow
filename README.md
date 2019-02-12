@@ -19,7 +19,6 @@ To view random model predictions do
 ```
 python predict.py
 ```
-![Test Image 1](https://imgur.com/a/myLwNSt)
 
 ### Training Model :
 Train the model using
