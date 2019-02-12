@@ -3,9 +3,9 @@ A CNN classifier with flask web API, to tell if you have a Vada Pav or not.  Gaw
 
 ## How to use :
 The project requirements can be installed using
-	pip install -r requirements.txt
+				pip install -r requirements.txt
 
 To launch the web API do
-	python app.py
+				python app.py
   
 
