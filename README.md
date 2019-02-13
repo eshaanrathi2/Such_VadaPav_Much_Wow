@@ -15,11 +15,13 @@ python app.py
 ```
 And open the web browser at http://localhost:3000/ to upload a sample image predictions. Now, sit back and bask in its glory. :zap:
 
+![Image 1](https://github.com/rohansuresh27/Such_VadaPav_Much_Wow/blob/master/readme/2.png)
+
 To view random model predictions do
 ```
 python predict.py
 ```
-![Test Image 4](https://github.com/rohansuresh27/Such_VadaPav_Much_Wow/blob/master/readme/7.png)
+![Image 2](https://github.com/rohansuresh27/Such_VadaPav_Much_Wow/blob/master/readme/7.png)
 
 ### Training Model :
 Train the model using
