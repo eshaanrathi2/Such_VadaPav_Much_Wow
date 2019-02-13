@@ -6,14 +6,14 @@ The project requirements can be installed using
 ```
 pip install -r requirements.txt
 ```
-Also change path locations in all python to get the project up and running on your local machine for training and testing purposes. 
+Also change path in all python files to get the project up and running on your local machine for training and testing.
 
 ### Running Tests :
 To launch the web API do
 ```
 python app.py
 ```
-And open the web browser at http://localhost:3000/ to upload a sample image predictions. Now, sit back and bask in its glory. :zap:
+Open the web browser at http://localhost:3000/ to upload a sample image and generate predictions. Now, sit back and bask in its glory. :zap:
 
 ![Image 1](https://github.com/rohansuresh27/Such_VadaPav_Much_Wow/blob/master/readme/2.png)
 
@@ -30,7 +30,7 @@ python train.py
 ```
 
 ### Data Scraping :
-Change keyword and path to download images and run using
+Change keyword, path to download images and run using
 ```
 python scraper.py
 ```
