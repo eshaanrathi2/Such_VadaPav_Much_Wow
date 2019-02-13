@@ -1,5 +1,5 @@
 ## Such_VadaPav_Much_Wow
-A CNN classifier with flask web API, to tell if you have a Vada Pav or not. Model trained on a simple CNN and MobileNet having accuracy of 92% and 91% respectivels.
+A CNN classifier with flask web API, to tell if you have a Vada Pav or not. Model trained on a simple CNN and MobileNet having accuracy of 92% and 91% respectively.
 
 ### Getting Started :
 The project requirements can be installed using
@@ -29,7 +29,7 @@ Train the model using
 python train.py
 ```
 
-### Data Sraping :
+### Data Scraping :
 Change keyword and path to download images and run using
 ```
 python scraper.py
