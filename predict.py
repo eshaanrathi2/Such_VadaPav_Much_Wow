@@ -41,6 +41,7 @@ test_datagen = ImageDataGenerator(rescale=1. / 255)
 i = 0
 columns = 5
 text_labels = []
+preds = []
 plt.figure(figsize=(50,40))
 for batch in test_datagen.flow_from_directory(
     test_data,
@@ -49,17 +50,22 @@ for batch in test_datagen.flow_from_directory(
     batch_size=1,
     class_mode=None):
     pred = model.predict(batch)
+    preds.append(pred)
     if pred > 0.5:
         text_labels.append('a Vada Pav')
     else:
         text_labels.append('not a Vada Pav')
     plt.subplot(5 , columns, i + 1)
-    plt.title('This is ' + text_labels[i])
+    # plt.title('This is ' + text_labels[i])
+    plt.title('This is %s' %(text_labels[i]))
+    plt.xticks([])
+    plt.yticks([])
+    plt.xlabel('P {}' .format(str(preds[i])))
     imgplot = plt.imshow(batch[0])
     i += 1
 #     plt.show()
     if i % 25 == 0:
-        break
+      break
 # plt.tight_layout(pad=1.0, w_pad=2.5, h_pad=3.0)
-plt.subplots_adjust(left=0.125, bottom=0.1, right=0.9 , top=0.9, wspace=0.7, hspace=0.7)
+plt.subplots_adjust(left=0.125, bottom=0.1, right=0.9 , top=0.9, wspace=1.0, hspace=1.0)
 plt.show()
