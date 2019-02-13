@@ -19,6 +19,7 @@ To view random model predictions do
 ```
 python predict.py
 ```
+![Test Image 4](https://github.com/rohansuresh27/Such_VadaPav_Much_Wow/blob/master/readme/7.png)
 
 ### Training Model :
 Train the model using
